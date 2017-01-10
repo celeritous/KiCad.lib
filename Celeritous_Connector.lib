@@ -236,6 +236,24 @@ X 59 59 500 -2600 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# Header_2x1
+#
+DEF Header_2x1 P 0 40 Y Y 1 F N
+F0 "P" 50 100 60 H V C CNN
+F1 "Header_2x1" 255 -105 60 H V C CNN
+F2 "" 0 -100 60 H V C CNN
+F3 "" 0 -100 60 H V C CNN
+$FPLIST
+ Header_2x1_Shrouded_100mil
+ Header_2x1_Shrouded_2mm
+$ENDFPLIST
+DRAW
+S 0 50 300 -50 0 1 0 N
+X 1 1 -200 0 200 R 50 50 1 1 I
+X 2 2 500 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # Header_2x10
 #
 DEF Header_2x10 P 0 40 Y Y 1 F N
